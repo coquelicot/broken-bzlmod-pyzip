@@ -1,0 +1,9 @@
+module(
+    name = "pyzip",
+    version = "0.1.0",
+)
+
+bazel_dep(
+    name = "rules_python",
+    version = "0.20.0",
+)
